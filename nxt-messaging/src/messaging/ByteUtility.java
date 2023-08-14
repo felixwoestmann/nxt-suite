@@ -23,6 +23,8 @@ public class ByteUtility {
    * determined by the convention of the number of bytes to be sent over the network which is
    * determined in a constant. -1 because we dont have the type here Bytes are interpreted as
    * NetworkByteOrder, therefore Big Endian
+   * 
+   * This function.
    */
   public static byte[] intToBytes(int input) {
     byte[] output = new byte[Command.PARAM_BYTECOUNT];
